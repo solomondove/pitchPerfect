@@ -14,6 +14,8 @@
 		80932D74275746F400757B88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80932D72275746F400757B88 /* LaunchScreen.storyboard */; };
 		80932D7F275746F400757B88 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80932D7E275746F400757B88 /* PitchPerfectTests.swift */; };
 		80932D8A275746F400757B88 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80932D89275746F400757B88 /* PitchPerfectUITests.swift */; };
+		8098292427615673007045F1 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098292327615673007045F1 /* PlaySoundsViewController.swift */; };
+		8098292627617826007045F1 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098292527617825007045F1 /* playsoundsviewcontroller-audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		80932D85275746F400757B88 /* PitchPerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PitchPerfectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80932D89275746F400757B88 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		80932D8B275746F400757B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8098292327615673007045F1 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		8098292527617825007045F1 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				80932D70275746F400757B88 /* Assets.xcassets */,
 				80932D72275746F400757B88 /* LaunchScreen.storyboard */,
 				80932D75275746F400757B88 /* Info.plist */,
+				8098292327615673007045F1 /* PlaySoundsViewController.swift */,
+				8098292527617825007045F1 /* playsoundsviewcontroller-audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				80932D6C275746EC00757B88 /* RecordSoundsViewController.swift in Sources */,
+				8098292427615673007045F1 /* PlaySoundsViewController.swift in Sources */,
 				80932D6A275746EC00757B88 /* AppDelegate.swift in Sources */,
+				8098292627617826007045F1 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -418,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
