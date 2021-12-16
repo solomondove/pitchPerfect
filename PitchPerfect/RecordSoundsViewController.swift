@@ -8,12 +8,12 @@
 
 import UIKit
 import AVFoundation
-var audioRecorder: AVAudioRecorder!
+
 
 
 class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
-    
+    var audioRecorder: AVAudioRecorder!
     
     @IBOutlet weak var recordButton: UIButton!
     @IBOutlet weak var recordingLabel: UILabel!

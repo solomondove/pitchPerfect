@@ -15,7 +15,7 @@
 		80932D7F275746F400757B88 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80932D7E275746F400757B88 /* PitchPerfectTests.swift */; };
 		80932D8A275746F400757B88 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80932D89275746F400757B88 /* PitchPerfectUITests.swift */; };
 		8098292427615673007045F1 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098292327615673007045F1 /* PlaySoundsViewController.swift */; };
-		8098292627617826007045F1 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098292527617825007045F1 /* playsoundsviewcontroller-audio.swift */; };
+		8098292627617826007045F1 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098292527617825007045F1 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		80932D89275746F400757B88 /* PitchPerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchPerfectUITests.swift; sourceTree = "<group>"; };
 		80932D8B275746F400757B88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8098292327615673007045F1 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		8098292527617825007045F1 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
+		8098292527617825007045F1 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				80932D72275746F400757B88 /* LaunchScreen.storyboard */,
 				80932D75275746F400757B88 /* Info.plist */,
 				8098292327615673007045F1 /* PlaySoundsViewController.swift */,
-				8098292527617825007045F1 /* playsoundsviewcontroller-audio.swift */,
+				8098292527617825007045F1 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -265,7 +265,7 @@
 				80932D6C275746EC00757B88 /* RecordSoundsViewController.swift in Sources */,
 				8098292427615673007045F1 /* PlaySoundsViewController.swift in Sources */,
 				80932D6A275746EC00757B88 /* AppDelegate.swift in Sources */,
-				8098292627617826007045F1 /* playsoundsviewcontroller-audio.swift in Sources */,
+				8098292627617826007045F1 /* PlaySoundsViewController+Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
